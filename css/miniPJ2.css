@@ -1,0 +1,43 @@
+body {
+    background-color: #f7f9fc;
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.test {
+    border: 1px solid black;
+}
+
+.text-color {
+    color: #6fbaf8;
+}
+
+.bg-color {
+    background-color: #6fbaf8;
+    border-color: #6fbaf8;
+}
+
+.clear-box {
+    clear: both;
+    float: none;
+}
+
+.profile-btn{
+    width:125px;
+    border-radius: 2px;
+}
+
+.profile-border{
+    border-left: 3px solid #f7f9fc;
+}
+
+.small-font{
+    font-size: 13px;
+}
+
+.small-icon{
+    font-size: 10px;
+}
