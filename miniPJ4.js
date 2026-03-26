@@ -148,7 +148,7 @@ function display_canvas() {
 //이하 이벤트 구문
 
 // 시작 시 카드 상자, 카트 초기화
-$.get('./store.json').done(function (data) {
+$.get('./miniPJ4.json').done(function (data) {
     products = data.products // 데이터 읽기
     for (i = 0; i < products.length; i++) cart.push(0); // 카트 초기화
     reset_cards(); // 카트 상자 초기화
