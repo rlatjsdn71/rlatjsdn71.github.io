@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.main-background{
+    width: 100%;
+    background-color: #eee;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.card-container{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.card{
+    width: 250px;
+    float: left;
+}
+
+.card img{
+    display: block;
+    margin: auto;
+    width: 90%;
+
+}
+
+.cart-container{
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 0%, 74%);
+}
+
+.cart{
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 450px;
+}
+
+.black-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 30px;
+    visibility: hidden;
+    /* visibility: visible; */
+}
+
+.white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.canvas-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.canvas{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.canvas-container button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 100%;
+    display: none;
+    /* display: block; */
+}
